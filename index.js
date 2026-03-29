@@ -25,7 +25,7 @@ const server = http.createServer((req, res) => {
                 <h1>业务程序运行中</h1>
                 <div class="time">${new Date().toLocaleTimeString()}</div>
                 <div class="footer">当前系统日期：${new Date().toLocaleDateString()}</div>
-                <p style="font-size: 12px; color: #bdc3c7;">(这是从 GitHub 自动打包的业务镜像)</p>
+                <p style="font-size: 2px; color: #3498db;">(这是从 GitHub 自动打包的业务镜像)</p>
             </div>
         </body>
         </html>
