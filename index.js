@@ -16,8 +16,8 @@ const server = http.createServer((req, res) => {
                 body { font-family: system-ui; display: flex; justify-content: center; align-items: center; height: 100vh; background: #f4f7f6; margin: 0; }
                 .card { background: white; padding: 2rem; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); text-align: center; }
                 h1 { color: #2c3e50; margin-bottom: 10px; }
-                .time { font-size: 3rem; font-weight: bold; color: #ff0000; font-family: monospace; }
-                .footer { margin-top: 20px; color: #3498db; font-size: 0.9rem; }
+                .time { font-size: 13rem; font-weight: bold; color: #ff0000; font-family: monospace; }
+                .footer { margin-top: 120px; color: #3498db; font-size: 0.9rem; }
             </style>
         </head>
         <body>
