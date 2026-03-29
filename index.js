@@ -17,7 +17,7 @@ const server = http.createServer((req, res) => {
                 .card { background: white; padding: 2rem; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); text-align: center; }
                 h1 { color: #2c3e50; margin-bottom: 10px; }
                 .time { font-size: 3rem; font-weight: bold; color: #ff0000; font-family: monospace; }
-                .footer { margin-top: 120px; color: #95a5a6; font-size: 0.9rem; }
+                .footer { margin-top: 20px; color: #3498db; font-size: 0.9rem; }
             </style>
         </head>
         <body>
@@ -25,7 +25,7 @@ const server = http.createServer((req, res) => {
                 <h1>业务程序运行中</h1>
                 <div class="time">${new Date().toLocaleTimeString()}</div>
                 <div class="footer">当前系统日期：${new Date().toLocaleDateString()}</div>
-                <p style="font-size: 2px; color: #3498db;">(这是从 GitHub 自动打包的业务镜像)</p>
+                <p style="font-size: 12px; color: #bdc3c7;">(这是从 GitHub 自动打包的业务镜像)</p>
             </div>
         </body>
         </html>
