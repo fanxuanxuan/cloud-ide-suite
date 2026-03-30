@@ -20,7 +20,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '22'
-          cache: 'npm' # 自动缓存 node_modules，下次跑快 2 倍
+      #   cache: 'npm' # 自动缓存 node_modules，下次跑快 2 倍。本项目没有package.json 故先屏蔽
 
       # - name: Install dependencies
       #   run: npm install
